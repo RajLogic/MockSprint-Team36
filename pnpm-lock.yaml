@@ -8,6 +8,8 @@ overrides:
   '@types/express': ^5.0.1
   postcss: ^8.5.18
   sharp: ^0.35.0
+  js-yaml: 4.3.1
+  nanoid: 3.3.17
 
 importers:
 
@@ -48,7 +50,7 @@ importers:
         specifier: ^2.8.19
         version: 2.8.19
       '@types/express':
-        specifier: ^5.0.6
+        specifier: ^5.0.1
         version: 5.0.6
       '@types/express-rate-limit':
         specifier: ^6.0.2
@@ -3318,8 +3320,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  nanoid@3.3.18:
-    resolution: {integrity: sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==}
+  nanoid@3.3.17:
+    resolution: {integrity: sha512-xQLf0A3HOMlgHq0n247/LRuAOYmB7dXJ/DvAxGvsSBij45XtBSmQycu+F8ODbHwns/XyFZagyL1+J0Offw1E0g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -5038,7 +5040,7 @@ snapshots:
   '@grpc/grpc-js@1.9.16':
     dependencies:
       '@grpc/proto-loader': 0.7.15
-      '@types/node': 20.19.43
+      '@types/node': 22.20.1
 
   '@grpc/proto-loader@0.7.15':
     dependencies:
@@ -7812,7 +7814,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nanoid@3.3.18: {}
+  nanoid@3.3.17: {}
 
   napi-postinstall@0.3.4: {}
 
@@ -7993,7 +7995,7 @@ snapshots:
 
   postcss@8.5.25:
     dependencies:
-      nanoid: 3.3.18
+      nanoid: 3.3.17
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
