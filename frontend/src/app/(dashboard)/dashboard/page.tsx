@@ -32,6 +32,7 @@ export default async function DashboardPage() {
           >
             <p className="text-sm font-medium text-zinc-500">{title}</p>
             <p className="mt-2 text-3xl font-bold">—</p>
+            
           </div>
         ))}
       </div>
