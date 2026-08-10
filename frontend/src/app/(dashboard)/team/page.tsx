@@ -37,7 +37,7 @@ export default async function TeamPage() {
     <h1 className="mb-2 text-4xl font-bold text-center">Team 36</h1>
     <p className="mb-6 text-center">The Team behind the Project</p>
 
-    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5 text-center">
+    <div className="mt-20 grid gap-4 md:grid-cols-2 lg:grid-cols-5 text-center space">
       {teamMembers.map((member) => (
         <div
           key={member.name}

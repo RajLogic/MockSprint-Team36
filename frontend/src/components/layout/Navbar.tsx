@@ -18,7 +18,7 @@ export function Navbar() {
   return (
     <header className="flex h-14 items-center justify-between border-b border-zinc-700 bg-[#10191F] px-4">
       <div className="text-sm font-semibold text-white lg:hidden">
-        {process.env.NEXT_PUBLIC_APP_NAME ?? 'App'}
+        Team 36
       </div>
       <div className="flex-1" />
       <div className="flex items-center gap-3">
