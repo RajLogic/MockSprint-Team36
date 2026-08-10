@@ -23,6 +23,7 @@ export default async function TeamPage() {
 
   const greetingName = displayName ?? session?.email ?? null
 
+
   const teamMembers = [
     { name: 'Sean Renzo Mojica', role: 'Developer' , description: 'Build the solution, code, architecture, testing, and deployment'},
     { name: 'Phuong Vo Nguyen', role: 'Developer' , description: 'Build the solution, code, architecture, testing, and deployment'},
@@ -37,7 +38,7 @@ export default async function TeamPage() {
     <h1 className="mb-2 text-4xl font-bold text-center">Team 36</h1>
     <p className="mb-6 text-center">The Team behind the Project</p>
 
-    <div className="mt-20 grid gap-4 md:grid-cols-2 lg:grid-cols-5 text-center space">
+    <div className="mt-30 grid gap-4 md:grid-cols-2 lg:grid-cols-5 text-center space">
       {teamMembers.map((member) => (
         <div
           key={member.name}
