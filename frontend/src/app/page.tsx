@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function LandingPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-8 p-8">
+    <main className="flex min-h-screen flex-col items-center justify-center gap-8 p-8 ">
       <div className="space-y-4 text-center">
         <h1 className="text-4xl font-bold tracking-tight">
           {process.env.NEXT_PUBLIC_APP_NAME ?? 'App'}
